@@ -1,0 +1,310 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.home {
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1.2)), url(/assets/img/main-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+
+.home-content {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work {
+  height: 100vh;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/img/the-games-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+
+.work-content {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  height: 120vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(/assets/img/features.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+
+.contact-content {
+  padding-top: 20%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutme {
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(/assets/img/requirements.png);
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+
+.aboutme-content {
+  padding-top: 5%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kolom {
+  border: 1px solid;
+  color: white;
+}
+.kolom2 {
+  border: 2px solid;
+  color: blue;
+}
+.kolom3 {
+  border: 2px solid;
+  color: rgb(245, 0, 204);
+}
+.topscore {
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url(/assets/img/bg3.JPG);
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+
+.topscore-content {
+  padding-top: 7%;
+  color: white;
+}
+
+.fototop {
+  max-width: 65%;
+  max-height: 65%;
+}
+
+.pcard {
+  padding-top: 7%;
+}
+
+.newsletter {
+  height: 80vh;
+
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.newsletter-content {
+  padding-top: 5%;
+  color: white;
+}
+
+.newsletter-form {
+  margin-top: 50px;
+  display: flex;
+  gap: 17px;
+}
+
+.newsletter-input,
+.newsletter-text {
+  background: #232525;
+  flex: 1.5;
+  border-radius: 5px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+}
+
+.fontbesar {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5vw;
+}
+.work-content h1,
+.contact-content h1,
+.aboutme h1,
+.topscore-content h1 {
+  letter-spacing: 5px;
+  color: white;
+}
+
+/* Footer */
+.footer {
+  background: #000000;
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footer-menu__nav {
+  display: inline-flex;
+}
+
+/* css ambil */
+ul {
+  padding-left: 12px;
+  margin-top: -6px;
+  margin-bottom: -6px;
+  padding-bottom: 0;
+}
+.mainDiv {
+  height: 200px;
+  width: 300px;
+  position: relative;
+}
+
+.borderLeft {
+  border-left: 4px solid #fffdfd;
+  position: absolute;
+  top: 25px;
+  height: 100px;
+}
+
+.borderLeft li {
+  list-style-type: none;
+  display: list-item;
+  margin-left: -1px;
+  color: #cf8626;
+  font-size: x-large;
+}
+
+.borderLeft li:before {
+  content: "";
+  border: 7px rgb(252, 252, 252) solid !important;
+  border-radius: 50px;
+  margin-top: 5px;
+  margin-left: -20px;
+  position: absolute;
+}
+
+.corslpic {
+  width: 200px;
+  height: 100px;
+}
+/* CSS Footer Ambil */
+
+.footer-distributed {
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 10px 5px;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease 0.25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease 0.25s;
+  font-size: 16px;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 6px;
+  transition: all 0.25s;
+}
+
+.footer-distributed .footer-info {
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+}
+.footer-bawah a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-size: 20px;
+}
+
+/* ccs for game html  */
+.game {
+  height: 100vh;
+  background-color: rgb(119, 96, 68);
+}
+
+.container h3 {
+  color: rgb(202, 137, 39);
+}
+
+.row img {
+  width: 80px;
+  height: 80px;
+}
+
+.shadow {
+  background-color: rgb(203, 203, 212);
+  border-radius: 5px;
+  width: 50%;
+  height: 100%;
+  border: 5px;
+}
+
+#versus h1 {
+  color: brown;
+  font-size: 60px;
+  padding: 0%;
+}
+
+.changeVersus {
+  transform: rotate(-20deg);
+  text-align: center;
+  background-color: rgb(21, 128, 7);
+  border-radius: 5px;
+  height: 80%;
+  width: 80%;
+}
+
+.row .refresh-button {
+  width: 80px;
+  height: 75px;
+}
